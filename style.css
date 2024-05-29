@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'BMHANNAAir';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'BMHANNAAir';
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+section:nth-child(odd) {
+    background-color: #fff2dd;
+}
+
+
+.wrapper {
+    padding-top: 150px;
+    /* max-width: 1200px; */
+    margin: auto;
+    color: #000;
+    position: relative;
+}
+
+#main .wrapper img{
+    width: 90vh;
+    margin-left: 30%;
+    margin-top: 5vh;
+}
+#editdesign .wrapper img{
+    width: 70vh;
+    margin-top: vh;
+}
+#imageshooting .wrapper img{
+    width: 80vh;
+    margin-right: -13vh;
+}
+#redesign .wrapper img{
+    width: 100vh;
+}
+#webdesign .wrapper img{
+    width: 80vh;
+}
+
+/* 메인 */
+#main .wrapper h2{
+    font-size: 5vh;
+    margin-right: 70%;
+    margin-top: -8vh;
+    padding: 0;
+}
+#main .wrapper h3{
+    font-size: 5vh;
+    margin-right: 56%;
+    padding: 30px;
+    font-size: 23px;
+    font-weight: 300;
+    padding: 0;
+}
+
+
+#editdesign .wrapper h1{
+    font-size: 4vh;
+    margin-right: 0%;
+    margin-top: -8vh;
+    padding: 0;
+}
+#editdesign .wrapper h2{
+    font-size: 5vh;
+    margin-top: -4vh;
+    padding: 30px;
+}
+#editdesign .wrapper h3{
+    font-size: 3.5vh;
+    margin-top: vh;
+    padding: 30px;
+}
+#editdesign .wrapper p{
+    font-size: 2vh;
+    margin-top: -8vh;
+    padding: 30px;
+}
+
+
+#imageshooting .wrapper h1{
+    font-size: 4vh;
+    margin-right: 0%;
+    margin-top: -8vh;
+    padding: 0;
+}
+#imageshooting .wrapper h2{
+    font-size: 5vh;
+    margin-top: -4vh;
+    padding: 30px;
+}
+#imageshooting .wrapper h3{
+    font-size: 3.5vh;
+    margin-top: vh;
+    padding: 30px;
+}
+#imageshooting .wrapper p{
+    font-size: 2vh;
+    margin-top: -8vh;
+    padding: 30px;
+}
+
+
+#redesign .wrapper h1{
+    font-size: 4vh;
+    margin-right: 0%;
+    margin-top: -8vh;
+    padding: 0;
+}
+#redesign .wrapper h2{
+    font-size: 5vh;
+    margin-top: -4vh;
+    padding: 30px;
+}
+#redesign .wrapper h3{
+    font-size: 3.5vh;
+    margin-top: vh;
+    padding: 30px;
+}
+#redesign .wrapper p{
+    font-size: 2vh;
+    margin-top: -8vh;
+    padding: 30px;
+}
+
+
+#webdesign .wrapper h1{
+    font-size: 4vh;
+    margin-right: 0%;
+    margin-top: -8vh;
+    padding: 0;
+}
+#webdesign .wrapper h2{
+    font-size: 5vh;
+    margin-top: -4vh;
+    padding: 30px;
+}
+#webdesign .wrapper h3{
+    font-size: 3.5vh;
+    margin-top: vh;
+    padding: 30px;
+}
+#webdesign .wrapper p{
+    font-size: 2vh;
+    margin-top: -8vh;
+    padding: 30px;
+}
+
+
+.btns {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.btns .container {
+    top: 20px;
+    position: relative;
+    max-width: 100%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.btns__menu {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btns_menu .btn {
+    font-size: 4vh;
+    font-weight: 100;
+    color: #000;
+    width: 25vh;
+    height: 5.7vh;
+    border-radius: 10px;
+    margin: 3vh;
+    background-color: #ffe4d3;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-left: 11.3vh;
+}
+
+.btns_menu .btn:hover {
+    background-color: #ffe7c0;
+}
+
+

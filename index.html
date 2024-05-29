@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>랜딩페이지</title>
-    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="btns">
@@ -21,70 +21,73 @@
     
     <section id="main">
         <div class="wrapper">
+            <img src="imgs/main.png" alt="">
             <h2>송다은</h2>
             <h3>한국폴리텍대학 서울정수캠 | 시각디자인과</h3>
-            <img src="imgs/main.png" alt="">
         </div>
     </section>
     <section id="editdesign">
         <div class="wrapper">
             <h1>편집디자인</h1>
             <h2>한국의 전통, 한복의 멋</h2>
-            <h3>빛, 시간</h3>
-            <p>한국의 전통과 한복에 대해서 편집디자인으로 표현한 디자인</p>
-            <p>한복은 복잡하지 않고 은은한 아름다움이 있기 때문에 여백을 살린 디자인으로 한복의 아름다움을 극대화 </p>
             <img src="imgs/1.png" alt="">
+            <h3>빛, 시간</h3>
+            <p>한국의 전통과 한복에 대해서 편집디자인으로 표현한 디자인 <br>한복은 복잡하지 않고 은은한 아름다움이 있기 때문에 여백을 살린 디자인으로 한복의 아름다움을 극대화 </p>
         </div>
     </section>
     <section id="imageshooting">
         <div class="wrapper">
             <h1>이미지촬영</h1>
             <h2>원더랜드로 떠나는 여행</h2>
+            <img src="imgs/2.png" alt="">
             <h3>액션의 몰입감</h3>
             <p>닌텐도는 화려한 액션에 맞게 진동과 3D로 몰임감을 높여주어 게임에 빠져드는 듯한 느낌을 그래픽으로 연출</p>
-            <img src="imgs/2.png" alt="">
         </div>
     </section>
     <section id="redesign">
         <div class="wrapper">
             <h1>리디자인</h1>
             <h2>다른 시각과 느낌으로</h2>
+            <img src="imgs/3.jpg" alt="">
             <h3>표지와 한국 현대사</h3>
             <p>빠른 속도로 발전하는 기술로 적응하지 못하는 사람들의 비극을 담은 '난쟁이가 쏘아올린 작은 공' 이야기를 표지로 연출</p>
-            <img src="imgs/3.jpg" alt="">
         </div>
     </section>
     <section id="webdesign">
         <div class="wrapper">
             <h1>웹디자인</h1>
             <h2>디자인을 코딩으로</h2>
+            <img src="imgs/4.png" alt="">
             <h3>MBL</h3>
             <p>이미지의 크기와 코딩의 입력값에 따라 달라지는 웹을 디자인 시안을 바탕으로 제작</p>
-            <img src="imgs/4.png" alt="">
         </div>
     </section>
     
     <script>
-      const btnEdirdesign = document.querySelector('.edirdesign');
-        const sectionEdirdesign = document.querySelector('#edirdesign');
-        btnedirdesign.addEventListener('click', function() {
-            sectionEdirdesign.scrollIntoView({behavior:"smooth", block:"center"})
+        const btnEditdesign = document.querySelector('.editdesign');
+        const sectionEditdesign = document.querySelector('#editdesign');
+        btnEditdesign.addEventListener('click', function() {
+            sectionEditdesign.scrollIntoView({behavior: "smooth", block: "center"});
         });
+
         const btnImageshooting = document.querySelector('.imageshooting');
         const sectionImageshooting = document.querySelector('#imageshooting');
         btnImageshooting.addEventListener('click', function() {
-            sectionImageshooting.scrollIntoView({behavior:"smooth", block:"center"})
+            sectionImageshooting.scrollIntoView({behavior: "smooth", block: "center"});
         });
+
         const btnRedesign = document.querySelector('.redesign');
         const sectionRedesign = document.querySelector('#redesign');
         btnRedesign.addEventListener('click', function() {
-            sectionRedesignscrollIntoView({behavior:"smooth", block:"center"})
+            sectionRedesign.scrollIntoView({behavior: "smooth", block: "center"});
         });
+
         const btnWebdesign = document.querySelector('.webdesign');
         const sectionWebdesign = document.querySelector('#webdesign');
         btnWebdesign.addEventListener('click', function() {
-            sectionWebdesign.scrollIntoView({behavior:"smooth", block:"center"})
+            sectionWebdesign.scrollIntoView({behavior: "smooth", block: "center"});
         });
     </script>
+    
 </body>
 </html>
